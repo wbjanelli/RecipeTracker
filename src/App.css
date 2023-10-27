@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+/* Global Styles */
+.App {
+  padding: 1em;
+}
+
+/* Header Styles */
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+/* Table Styles */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header and Footer */
+thead th,
+tfoot th {
+  font-family: 'Rock Salt';
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+/* Table Rows and Cells */
+td {
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Image Styles */
+td img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+/* Form Label Styles */
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Zebra Striping for Odd Rows */
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7; /* You can change this color as needed */
+}
+
+/* Maximum Width and Scrollbar for Content */
+.content_td {
+  max-width: 30%;
+  overflow: auto;
+}
+
+/* Content Text Styles */
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* H1 Heading Styles */
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 64px;
+}
